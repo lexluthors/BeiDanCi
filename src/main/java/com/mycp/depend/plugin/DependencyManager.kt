@@ -29,13 +29,12 @@ object Versions {
     const val jDatabinding = "1.0.1"
     const val material = "1.3.0"
     const val lifecycleRuntime = "2.3.1"
-    const val lifecycleExtensions  = "2.2.0"
-    const val vectordrawable  = "1.1.0"
-    const val lifecycleLiveDataKtx  = "2.3.1"
-    const val lifecycleViewModelKtx  = "2.3.1"
-    const val navigationFragmentKtx  = "2.3.5"
-    const val navigationUiKtx  = "2.3.5"
-
+    const val lifecycleExtensions = "2.2.0"
+    const val vectordrawable = "1.1.0"
+    const val lifecycleLiveDataKtx = "2.3.1"
+    const val lifecycleViewModelKtx = "2.3.1"
+    const val navigationFragmentKtx = "2.3.5"
+    const val navigationUiKtx = "2.3.5"
 
 
     // AndroidX--------------------------------------------------------------
@@ -57,7 +56,8 @@ object Versions {
     const val Coroutines = "1.5.0"                      // 协程
 
     // JetPack---------------------------------------------------------------
-    const val Lifecycle = "2.3.1"                       // Lifecycle相关（ViewModel & LiveData & Lifecycle）
+    const val Lifecycle =
+        "2.3.1"                       // Lifecycle相关（ViewModel & LiveData & Lifecycle）
     const val Hilt = "2.35.1"                           // DI框架-Hilt
     const val HiltAndroidx = "1.0.0"
 
@@ -105,11 +105,15 @@ object AndroidX {
     const val cardView = "androidx.cardview:cardview:${Versions.cardview}"
     const val recyclerview = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
     const val lifecycleRuntime = "androidx.lifecycle:lifecycle-runtime:${Versions.lifecycleRuntime}"
-    const val lifecycleExtensions = "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycleExtensions}"
+    const val lifecycleExtensions =
+        "androidx.lifecycle:lifecycle-extensions:${Versions.lifecycleExtensions}"
     const val vectorDrawable = "androidx.vectordrawable:vectordrawable:${Versions.vectordrawable}"
-    const val lifecycleLivedataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleLiveDataKtx}"
-    const val lifecycleViewModelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleViewModelKtx}"
-    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Versions.navigationFragmentKtx}"
+    const val lifecycleLivedataKtx =
+        "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycleLiveDataKtx}"
+    const val lifecycleViewModelKtx =
+        "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleViewModelKtx}"
+    const val navigationFragmentKtx =
+        "androidx.navigation:navigation-fragment-ktx:${Versions.navigationFragmentKtx}"
     const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Versions.navigationUiKtx}"
 
     const val ActivityKtx = "androidx.activity:activity-ktx:${Versions.ActivityKtx}"
@@ -213,7 +217,8 @@ object GitHub {
     const val CoilSVG = "io.coil-kt:coil-svg:${Versions.Coil}"
     const val CoilVideo = "io.coil-kt:coil-video:${Versions.Coil}"
     const val LiveDataBus = "io.github.jeremyliao:live-event-bus-x:${Versions.LiveDataBus}"
-    const val ThreeArouterCompiler = "com.weikaiyun.Arouter:arouter-compiler:${Versions.ThreeArouterCompiler}"
+    const val ThreeArouterCompiler =
+        "com.weikaiyun.Arouter:arouter-compiler:${Versions.ThreeArouterCompiler}"
     const val GyArouterApi = "com.gyzq.common:mode-arouter-api:${Versions.GyArouterApi}"
     const val GyArouterCompiler = "com.gyzq.common:arouter-compiler:${Versions.GyArouterCompiler}"
     const val GyArouterPlugin = "com.gyzq.common:arouter-gradle-plugin:${Versions.GyArouterPlugin}"
@@ -225,7 +230,12 @@ object GitHub {
     const val MagicIndicator = "com.github.hackware1993:MagicIndicator:1.7.0"
     const val Fastjson = "com.alibaba:fastjson:1.2.69"
     const val AndroidSvg = "com.caverock:androidsvg-aar:1.3"
-//    const val Logger = "com.orhanobut:logger:${Versions.Logger}"
+
+    //    const val Logger = "com.orhanobut:logger:${Versions.Logger}"
+    //全局通用md风格dialog，兼容到4.4
+    const val MaterialDialogsCore = "com.afollestad.material-dialogs:core:3.3.0"
+    const val MaterialDialogsInput = "com.afollestad.material-dialogs:input:3.3.0"
+    const val MaterialDialogsFiles = "com.afollestad.material-dialogs:files:3.3.0"
 }
 
 object JetPack {
