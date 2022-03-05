@@ -236,6 +236,7 @@ object GitHub {
     const val MaterialDialogsCore = "com.afollestad.material-dialogs:core:3.3.0"
     const val MaterialDialogsInput = "com.afollestad.material-dialogs:input:3.3.0"
     const val MaterialDialogsFiles = "com.afollestad.material-dialogs:files:3.3.0"
+    const val ImmersionBar = "com.gyf.immersionbar:immersionbar:3.0.0"
 }
 
 object JetPack {
