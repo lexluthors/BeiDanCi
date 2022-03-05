@@ -237,6 +237,7 @@ object GitHub {
     const val MaterialDialogsInput = "com.afollestad.material-dialogs:input:3.3.0"
     const val MaterialDialogsFiles = "com.afollestad.material-dialogs:files:3.3.0"
     const val ImmersionBar = "com.gyf.immersionbar:immersionbar:3.0.0"
+    const val UmengCommon = "com.umeng.umsdk:common:9.4.4"
 }
 
 object JetPack {
@@ -255,4 +256,8 @@ object JetPack {
 object MYCP {
     //提交到plugin
 
+}
+object XZKJ {
+    //提交到plugin
+    const val SpKv = "com.mycp.common:sp_kv:1.0.0"
 }
