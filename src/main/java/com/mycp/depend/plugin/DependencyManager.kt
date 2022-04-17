@@ -196,7 +196,6 @@ object GitHub {
     const val Rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
     const val RetrofitConverterGson =
         "com.squareup.retrofit2:converter-gson:${Versions.RetrofitConverterGson}"
-    const val Gson = "com.google.code.gson:gson:${Versions.Gson}"
     const val MMKV = "com.tencent:mmkv-static:${Versions.MMKV}"
     const val AutoSize = "me.jessyan:autosize:${Versions.AutoSize}"
     const val ARoute = "com.alibaba:arouter-api:${Versions.ARoute}"
@@ -238,6 +237,16 @@ object GitHub {
     const val MaterialDialogsFiles = "com.afollestad.material-dialogs:files:3.3.0"
     const val ImmersionBar = "com.gyf.immersionbar:immersionbar:3.0.0"
     const val UmengCommon = "com.umeng.umsdk:common:9.4.4"
+    const val Glide = "com.github.bumptech.glide:glide:4.9.0"
+    const val Gson = "com.google.code.gson:gson:2.8.6"
+
+    const val TogetherAdCore = "com.github.ifmvo.TogetherAd:core:5.2.1"
+    //腾讯优量汇 （ 可选 ）
+    const val TogetherAdGdt = "com.github.ifmvo.TogetherAd:gdt:5.2.1"
+    const val TogetherAdCsj = "com.github.ifmvo.TogetherAd:csj:5.2.1"
+    const val TogetherAdKs = "com.github.ifmvo.TogetherAd:ks:5.2.1"
+    const val TogetherAdBaidu = "com.github.ifmvo.TogetherAd:baidu:5.2.1"
+
 }
 
 object JetPack {
