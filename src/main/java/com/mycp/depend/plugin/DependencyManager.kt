@@ -269,4 +269,5 @@ object MYCP {
 object XZKJ {
     //提交到plugin
     const val SpKv = "com.mycp.common:sp_kv:1.0.0"
+    const val MyLog = "com.mycp.common:logger:1.0.0"
 }
