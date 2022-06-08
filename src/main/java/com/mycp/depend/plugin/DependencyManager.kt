@@ -247,6 +247,11 @@ object GitHub {
     const val TogetherAdKs = "com.github.ifmvo.TogetherAd:ks:5.2.1"
     const val TogetherAdBaidu = "com.github.ifmvo.TogetherAd:baidu:5.2.1"
 
+    //友盟-微信分享
+    const val UmShareCore = "com.umeng.umsdk:share-core:7.1.5"
+    const val UmShareWx = "com.umeng.umsdk:share-wx:7.1.5"
+    const val WXShare = "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0"
+
 }
 
 object JetPack {
