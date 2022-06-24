@@ -276,4 +276,5 @@ object XZKJ {
     const val SpKv = "com.mycp.common:sp_kv:1.0.0"
     const val RxThread = "com.mycp.common:rx_thread:1.0.0"
     const val MyLog = "com.mycp.common:logger:1.0.0"
+    const val FileChooser = "com.mycp.common:FileChooser:1.0.0"
 }
