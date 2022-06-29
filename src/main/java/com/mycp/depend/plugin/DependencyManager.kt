@@ -7,7 +7,7 @@ package com.mycp.depend.plugin
  */
 object Versions {
     const val retrofit = "2.9.0"
-    const val appcompat = "1.2.0"
+    const val appcompat = "1.3.1"
     const val coreKtx = "1.6.0"
     const val constraintlayout = "2.0.4"
     const val paging = "3.0.0-alpha01"
@@ -63,7 +63,7 @@ object Versions {
 
     // GitHub----------------------------------------------------------------
     const val OkHttp = "4.9.0"                          // OkHttp
-    const val OkHttpInterceptorLogging = "4.9.1"        // OkHttp 请求Log拦截器
+    const val OkHttpInterceptorLogging = "4.0.1"        // OkHttp 请求Log拦截器
     const val Retrofit = "2.9.0"                        // Retrofit
     const val RetrofitConverterGson = "2.9.0"           // Retrofit Gson 转换器
     const val Gson = "2.8.7"                            // Gson
@@ -73,7 +73,7 @@ object Versions {
     const val ARouteCompiler = "1.5.2"                  // 阿里路由 APT
     const val RecyclerViewAdapter = "3.0.4"             // RecyclerViewAdapter
     const val StatusBar = "1.5.1"                       // 状态栏
-    const val EventBus = "3.2.0"                        // 事件总线
+    const val EventBus = "3.1.1"                        // 事件总线
     const val PermissionX = "1.5.0"                     // 权限申请
     const val LeakCanary = "2.7"                        // 检测内存泄漏
     const val AutoService = "1.0"                       // 自动生成SPI暴露服务文件
@@ -121,6 +121,9 @@ object AndroidX {
     const val MultiDex = "androidx.multidex:multidex:${Versions.MultiDex}"
     const val LocalBroadcastManager = "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
     const val Swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    const val DocumentFile = "androidx.documentfile:documentfile:1.0.1"
+    const val WorkRuntimeKtx = "androidx.work:work-runtime-ktx:2.5.0"
 }
 
 object Room {
@@ -190,12 +193,12 @@ object GitHub {
     const val OkHttp = "com.squareup.okhttp3:okhttp:${Versions.OkHttp}"
     const val OkHttpInterceptorLogging =
         "com.squareup.okhttp3:logging-interceptor:${Versions.OkHttpInterceptorLogging}"
-    const val Retrofit = "com.squareup.retrofit2:retrofit:${Versions.Retrofit}"
-    const val Retrofit2AdapterRxjava = "com.squareup.retrofit2:adapter-rxjava2:2.5.0"
+    const val Retrofit = "com.squareup.retrofit2:retrofit:2.4.0"
+    const val Retrofit2AdapterRxjava = "com.squareup.retrofit2:adapter-rxjava2:2.4.0"
     const val Rxjava2 = "io.reactivex.rxjava2:rxjava:2.2.12"
     const val Rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
     const val RetrofitConverterGson =
-        "com.squareup.retrofit2:converter-gson:${Versions.RetrofitConverterGson}"
+        "com.squareup.retrofit2:converter-gson:2.4.0"
     const val MMKV = "com.tencent:mmkv-static:${Versions.MMKV}"
     const val AutoSize = "me.jessyan:autosize:${Versions.AutoSize}"
     const val ARoute = "com.alibaba:arouter-api:${Versions.ARoute}"
@@ -235,7 +238,7 @@ object GitHub {
     const val MaterialDialogsCore = "com.afollestad.material-dialogs:core:3.3.0"
     const val MaterialDialogsInput = "com.afollestad.material-dialogs:input:3.3.0"
     const val MaterialDialogsFiles = "com.afollestad.material-dialogs:files:3.3.0"
-    const val ImmersionBar = "com.gyf.immersionbar:immersionbar:3.0.0"
+    const val ImmersionBar = "com.geyifeng.immersionbar:immersionbar:3.2.2"
     const val UmengCommon = "com.umeng.umsdk:common:9.4.4"
     const val Glide = "com.github.bumptech.glide:glide:4.9.0"
     const val Gson = "com.google.code.gson:gson:2.8.6"
@@ -250,7 +253,32 @@ object GitHub {
     //友盟-微信分享
     const val UmShareCore = "com.umeng.umsdk:share-core:7.1.5"
     const val UmShareWx = "com.umeng.umsdk:share-wx:7.1.5"
+    const val UmSdkCommon = "com.umeng.umsdk:common:9.4.4"// 必选
+    const val UmSdkAsms = "com.umeng.umsdk:asms:1.4.1"// 必选
+    const val UmSdkApm = "com.umeng.umsdk:apm:1.2.0" // 错误分析升级为独立产品U-APM可按需集成，可选
+    const val UmSdkAbtest = "com.umeng.umsdk:abtest:1.0.0"//使用U-App中ABTest能力，可选
+
     const val WXShare = "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0"
+    const val ColorPickerView = "com.github.skydoves:colorpickerview:1.0.8"
+
+    const val StickeView = "com.lcw.library:StickeView:1.0.1"
+    const val XxPermissions = "com.hjq:xxpermissions:9.8"
+    const val Matisse = "com.github.lexluthors:Matisse:1.0.5"
+    const val UpdateX = "com.github.lexluthors:updateX:1.02"
+    const val MobileFfmpeg = "com.arthenica:mobile-ffmpeg-min-gpl:4.4"
+
+    const val PictureSelector = "io.github.lucksiege:pictureselector:v2.7.3-rc08"
+    const val ExoplayerCore = "com.google.android.exoplayer:exoplayer-core:2.15.1"
+
+    const val FlexibleDivider = "com.github.lexluthors:flexibledivider:1.0.3"
+    const val AndroidPickerView = "com.contrarywind:Android-PickerView:4.1.6"
+
+    const val CommonUtil = "com.abrahamcaijin.commonutil:CommonUtil:1.0.3"
+    const val FlycoRoundViewLib = "com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar"
+    const val Luban = "top.zibin:Luban:1.1.8"
+    const val JiaoZiVideoPlayer = "cn.jzvd:jiaozivideoplayer:7.6.0"
+    const val LitePal = "org.litepal.guolindev:core:3.1.1"
+    const val BubbleSeekbar = "com.xw.repo:bubbleseekbar:3.20-lite"
 
 }
 
@@ -273,8 +301,15 @@ object MYCP {
 }
 object XZKJ {
     //提交到plugin
-    const val SpKv = "com.mycp.common:sp_kv:1.0.0"
+    const val SpKv = "com.mycp.common:sp_kv:1.0.1"
     const val RxThread = "com.mycp.common:rx_thread:1.0.0"
     const val MyLog = "com.mycp.common:logger:1.0.0"
     const val FileChooser = "com.mycp.common:FileChooser:1.0.1"
+    const val ThirdLogin = "com.mycp.common:login:1.0.3"
+
+    const val PrivacyPolicy = "com.mycp.common:privacy_policy:1.0.8"
+    const val AdCore = "com.mycp.common:ad_core:1.0.6"
+
+    const val Progress = "com.gitee.lexluthor:progress:1.0"
+
 }
