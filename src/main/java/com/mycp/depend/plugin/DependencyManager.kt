@@ -309,6 +309,8 @@ object XZKJ {
 
     const val PrivacyPolicy = "com.mycp.common:privacy_policy:1.0.8"
     const val AdCore = "com.mycp.common:ad_core:1.0.6"
+    const val AdCoreNew = "com.mycp.common:ad_core_new:1.0.0"
+    const val RxOkhttpRetrofit = "com.mycp.common:RxOkhttpRetrofit:1.0.2"
 
     const val Progress = "com.gitee.lexluthor:progress:1.0"
 
