@@ -265,7 +265,8 @@ object GitHub {
     const val XxPermissions = "com.hjq:xxpermissions:9.8"
     const val Matisse = "com.github.lexluthors:Matisse:1.0.5"
     const val UpdateX = "com.github.lexluthors:updateX:1.02"
-    const val MobileFfmpeg = "com.arthenica:mobile-ffmpeg-min-gpl:4.4"
+//    const val MobileFfmpeg = "com.arthenica:mobile-ffmpeg-min-gpl:4.4"
+    const val MobileFfmpeg = "com.arthenica:mobile-ffmpeg-full-gpl:4.4"
 
     const val PictureSelector = "io.github.lucksiege:pictureselector:v2.7.3-rc08"
     const val ExoplayerCore = "com.google.android.exoplayer:exoplayer-core:2.15.1"
@@ -303,7 +304,7 @@ object XZKJ {
     //提交到plugin
     const val SpKv = "com.mycp.common:sp_kv:1.0.1"
     const val RxThread = "com.mycp.common:rx_thread:1.0.0"
-    const val MyLog = "com.mycp.common:logger:1.0.0"
+    const val MyLog = "com.mycp.common:logger:1.0.3"
     const val FileChooser = "com.mycp.common:FileChooser:1.0.1"
     const val ThirdLogin = "com.mycp.common:login:1.0.3"
 
