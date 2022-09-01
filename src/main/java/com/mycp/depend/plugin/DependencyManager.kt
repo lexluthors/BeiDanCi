@@ -315,5 +315,7 @@ object XZKJ {
     const val RxOkhttpRetrofit = "com.mycp.common:RxOkhttpRetrofit:1.0.2"
 
     const val Progress = "com.gitee.lexluthor:progress:1.0"
+    const val PrivacyAnnotation = "com.mycp.common:privacy_annotation:1.0.0"
+    const val PrivacyRectify = "com.mycp.common:privacy-rectify:1.0.0"
 
 }
