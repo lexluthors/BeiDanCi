@@ -280,6 +280,7 @@ object GitHub {
     const val JiaoZiVideoPlayer = "cn.jzvd:jiaozivideoplayer:7.6.0"
     const val LitePal = "org.litepal.guolindev:core:3.1.1"
     const val BubbleSeekbar = "com.xw.repo:bubbleseekbar:3.20-lite"
+    const val Asm = "org.ow2.asm:asm:7.1"
 
 }
 
