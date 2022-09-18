@@ -19,7 +19,7 @@ object BuildConfig {
     /**
      * 是否开启隐私整改插件
      */
-    const val isOpenPrivacyPlugin = true
+    const val isOpenPrivacyPlugin = false
 
     /**
      * 是否开启增量编译
