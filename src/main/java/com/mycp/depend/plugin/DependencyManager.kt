@@ -317,6 +317,6 @@ object XZKJ {
     const val Progress = "com.gitee.lexluthor:progress:1.0"
     const val PrivacyAnnotation = "com.mycp.common:privacy_annotation:1.0.0"
     const val PrivacyRectify = "com.mycp.common:privacy-rectify:1.0.0"
-    const val JzVideo = "com.mycp.common:JzVideo:7.6.5"
+    const val JzVideo = "com.mycp.common:JzVideo:7.6.6"
 
 }
